@@ -1,0 +1,204 @@
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DC1', 'Phsyiotheropy');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DC2', 'Anesthetics');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DR3', 'Orthopedic');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DR4', 'Pathology');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DR5', 'Gynecology');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DC6', 'Dental');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DR7', 'I.C.U');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DC8', 'Emergency');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DR9', 'Blood Bank');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DC10', 'Operation Theater');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DR11', 'Laboratory');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DC12', 'M.R.I');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DC13', 'Neurology');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DC14', 'Cardiology');
+insert into public."ALL_DOCTORS" ("Doctor_id", "Depart_Name") values ('DR15', 'Cancer Department');
+select * from "DOC_ON_CALL"
+select * from "ALL_DOCTORS"
+insert into public."DOC_ON_CALL" ("Doctor_id", "F_Name", "L_Name", "Qualifications", "Address", "Phone", "Join_On_Call", "Fees_Per_Call", "Payment_Due") 
+values ('DC6', 'Sasha', 'Bones', 'Dentist', '43 Lampkin Lane', '330 456 1298', '2013-05-13', '100.99', '300.45');	
+insert into public."DOC_ON_CALL" ("Doctor_id", "F_Name", "L_Name", "Qualifications", "Address", "Phone", "Join_On_Call", "Fees_Per_Call", "Payment_Due")
+values ('DC8', 'Tyler', 'Brown', 'Emergency Physician', '15 Tumbler Drive', '330 123 4567', '2014-07-13', '90.99', '442.22');
+insert into public."DOC_ON_CALL" ("Doctor_id", "F_Name", "L_Name", "Qualifications", "Address", "Phone", "Join_On_Call", "Fees_Per_Call", "Payment_Due")
+values ('DC10', 'Susan', 'Bright', 'Surgeon', '55 Timber Avenue', '492 482 4720', '2011-02-22', '125.99', '1092.23');
+insert into public."DOC_ON_CALL" ("Doctor_id", "F_Name", "L_Name", "Qualifications", "Address", "Phone", "Join_On_Call", "Fees_Per_Call", "Payment_Due")
+values ('DC12', 'Penelope', 'Waters', 'Radiologist', '22 Radio Lane', '324 043 0234', '2015-02-22', '67.99', '191.56');	
+insert into public."DOC_ON_CALL" ("Doctor_id", "F_Name", "L_Name", "Qualifications", "Address", "Phone", "Join_On_Call", "Fees_Per_Call", "Payment_Due")
+values ('DC13', 'Crystal', 'Clear', 'Neurologist', '13 Pineapple Drive', '378 222 4352', '2012-12-23', '72.95', '321.57');
+insert into public."DOC_ON_CALL" ("Doctor_id", "F_Name", "L_Name", "Qualifications", "Address", "Phone", "Join_On_Call", "Fees_Per_Call", "Payment_Due")
+values ('DC14', 'Benedict', 'Turtle', 'cardiologists', '56 Athelete Avenue', '576 234 7398', '2018/02/16', '65.95', '645.21');
+
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1234', 'Zedekiah', 'Elderidge', 43, 'M', '7 Stephen Way', '3/4/2020', '609 551 4504'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1235', 'Rosita', 'Gerardin', 51, 'M', '898 Talisman Trail', '12/4/2021', '684 354 8197');
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1236', 'Emyle', 'Phelipeaux', 69, 'F', '07632 Lakewood Gardens Lane', '7/7/2015', '182 488 6528'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1237', 'Kevina', 'Ellsworthe', 51, 'F', '599 Mesta Hill', '1/24/2016', '830 866 2888'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1238', 'Amaleta', 'Noon', 54, 'F', '69852 Hovde Lane', '11/2/2014', '859 366 8375'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1239', 'Ricardo', 'Cassie', 44, 'M', '25697 Grasskamp Street', '6/30/2018', '867 713 0210'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1240', 'Raimundo', 'Marco', 46, 'M', '51952 Burrows Avenue', '12/7/2020', '134 206 2788'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1241', 'Consolata', 'England', 41, 'M', '5112 Bowman Park', '6/10/2015', '600 622 9706'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1242', 'Abby', 'Loughan', 64, 'M', '8186 Loftsgordon Alley', '6/13/2016', '726 186 1033'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1243', 'Chandal', 'Hugues', 65, 'F', '2365 Melody Court', '4/26/2016', '775 586 6164'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1244', 'Zorine', 'Worg', 49, 'F', '0 Dottie Circle', '11/10/2015', '464 217 9285'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1245', 'Alana', 'Wheldon', 46, 'F', '5807 Debra Drive', '4/17/2017', '763 262 1801'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1246', 'Maureene', 'Tuxill', 74, 'F', '16876 Stephen Lane', '6/10/2018', '545 818 5539'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1247', 'Catharina', 'Dalling', 69, 'M', '606 Lake View Way', '1/2/2019', '254 886 1906'); 
+insert into public."ALL_PAT" ("Patient_id", "F_Name", "L_Name", "Age", "Sex", "Address", "City", "Phone") values ('PT1248', 'Aguistin', 'Hammant', 54, 'M', '3 Arizona Trail', '1/22/2017', '452 313 9890'); 
+select * from "ALL_PAT"
+delete from "ALL_PAT"
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1234-1', 'PT1234', '2022/05/05', 'Bad Knee', 'Physiotherapy', '2022/05/05', 'DC1');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1234-2', 'PT1234', '2022/05/05', 'Bad Knee', 'Physiotherapy', '2022/05/12', 'DC1');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1235-1', 'PT1235', '2022/05/09', 'Stitches', 'Anesthetics', '2022/05/09', 'DC2');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1236-1', 'PT1236', '2022/05/10', 'Spinal Injury', 'Orthopedic', '2022/05/10', 'DR3');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1237-1', 'PT1237', '2022/05/11', 'Pregnancy Check', 'Gynecology', '2022/05/11', 'DR5');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1238-1', 'PT1238', '2022/05/12', 'Wisdom Teeth Removal', 'Dental', '2022/05/12', 'DC6');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1238-2', 'PT1238', '2022/05/12', 'Wisdom Teeth Removal', 'Dental', '2022/05/19', 'DC6');						 
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1239-1', 'PT1239', '2022/05/14', 'Biopsy', 'Pathology', '2022/05/14', 'DR4');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1240-1', 'PT1240', '2022/05/11', 'Breathing Difficulty', 'I.C.U', '2022/05/11', 'DR7');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1240-2', 'PT1240', '2022/05/11', 'Breathing Difficulty', 'I.C.U', '2022/05/12', 'DR7');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1240-3', 'PT1240', '2022/05/11', 'Breathing Difficulty', 'I.C.U', '2022/05/13', 'DR7');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1241-1', 'PT1241', '2022/05/15', 'Broken Wrist', 'Emergency', '2022/05/15', 'DC8');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1242-1', 'PT1242', '2022/05/16', 'Blood Donation', 'Blood Bank', '2022/05/16', 'DR9');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1243-1', 'PT1243', '2022/05/16', 'Heart Attack', 'Operation Theater', '2022/05/16', 'DC10');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1244-1', 'PT1244', '2022/05/17', 'Blood Test', 'Laboratory', '2022/05/17', 'DR11');						 
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1244-2', 'PT1244', '2022/05/20', 'Blood Test', 'Laboratory', '2022/05/20', 'DR11');	
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1245-1', 'PT1245', '2022/05/18', 'M.R.I Scan', 'M.R.I', '2022/05/18', 'DC12');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1246-1', 'PT1246', '2022/05/19', 'Parkinsons', 'Neurology', '2022/05/19', 'DC13');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1247-1', 'PT1247', '2022/05/20', 'Irregular Heart', 'Cardiology', '2022/05/20', 'DC14');
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1247-2', 'PT1247', '2022/05/20', 'Irregular Heart', 'Cardiology', '2022/05/21', 'DC14');						 
+insert into public."PAT_ENTRY" ("Patient_Ent_id", "Patient_id", "Entry_Date", "Diagnosis", "Depart_Name", "Chk_Up_Date", "Doctor_id") 
+                         values ('PT1248-1', 'PT1248', '2022/05/21', 'Cancer Diagnosis', 'Cancer Department', '2022/05/21', 'DR15');	
+select * from "PAT_ENTRY"
+
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1234-1', 'DC1', '2022/05/05', 'Bad Knee', 'Rest, Ice, Compression, Elevation', 'Regular');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1234-2', 'DC1', '2022/05/12', 'Bad Knee', 'Checkup', 'Regular');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1235-1', 'DC2', '2022/05/09', 'Stitches', 'Stitches Removal', 'Regular');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1236-1', 'DR3', '2022/05/12', 'Spinal Injury', 'Braces Required', 'Admitted');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1237-1', 'DR5', '2022/05/11', 'Pregnancy Check', 'Pregnancy Check', 'Admitted');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1238-1', 'DC6', '2022/05/12', 'Wisdom Teeth Removal', 'Wisdom Teeth Removal', 'Operation');	
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1238-2', 'DC6', '2022/05/19', 'Wisdom Teeth Removal', 'Checkup', 'Regular');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1239-1', 'DR4', '2022/05/14', 'Biopsy', 'Biopsy', 'Operation');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1240-1', 'DR7', '2022/05/11', 'Breathing Difficulty', 'Oxygen Infusion', 'Admitted');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1240-2', 'DR7', '2022/05/12', 'Breathing Difficulty', 'Oxygen Infusion', 'Admitted');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1240-3', 'DR7', '2022/05/13', 'Breathing Difficulty', 'Adrenaline Shot', 'Admitted');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1241-1', 'DC8', '2022/05/15', 'Broken Wrist', 'Realignment and Splint', 'Admitted');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1242-1', 'DR9', '2022/05/16', 'Blood Donation', 'Blood Donation', 'Regular');	
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1243-1', 'DC10', '2022/05/16', 'Heart Attack', 'Surgery', 'Operation');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1244-1', 'DR11', '2022/05/17', 'Blood Test', 'Take Sample', 'Admitted');	
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1244-2', 'DR11', '2022/05/20', 'Blood Test', 'Test Result', 'Admitted');	
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1245-1', 'DC12', '2022/05/18', 'M.R.I Scan', 'M.R.I Scan', 'Regular');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1246-1', 'DC13', '2022/05/19', 'Parkinsons', 'L-Dopa', 'Regular');	
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1247-1', 'DC14', '2022/05/20', 'Irregular Heart', 'Cardioversion', 'Admitted');
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1247-2', 'DC14', '2022/05/21', 'Irregular Heart', 'Surgery', 'Operation');	
+insert into public."PAT_CHKUP" ("Patient_Ent_id", "Doctor_id", "Chk_Up_Date", "Diagnosis", "Treatment", "Patient_Status") 
+                        values ('PT1248-1', 'DR15', '2022/05/21', 'Cancer Diagnosis', 'Chemo', 'Admitted');	
+select * from "PAT_CHKUP"
+select * from "DEPARTMENT"
+insert into public."PAT_OPR" ("Patient_Ent_id", "Admission_Date", "Oper_Date", "Doctor_id", "Oper_Room_Num", "Oper_Type", "Pre_Op_Status", "Post_Op_Status", "Treatment_Advice") 
+                        values ('PT1238-1', '2022/05/12', '2022/05/12', 'DC6', '401', 'Dental', 'In Pain', 'Teeth Removed', 'Remove indicated teeth and give antibiotics');	
+insert into public."PAT_OPR" ("Patient_Ent_id", "Admission_Date", "Oper_Date", "Doctor_id", "Oper_Room_Num", "Oper_Type", "Pre_Op_Status", "Post_Op_Status", "Treatment_Advice") 
+                        values ('PT1239-1', '2022/05/14', '2022/05/14', 'DR4', '001', 'Biopsy', 'Dead Body', 'Cause of Death found', 'Prepare body for burial');
+insert into public."PAT_OPR" ("Patient_Ent_id", "Admission_Date", "Oper_Date", "Doctor_id", "Oper_Room_Num", "Oper_Type", "Pre_Op_Status", "Post_Op_Status", "Treatment_Advice") 
+                        values ('PT1243-1', '2022/05/16', '2022/05/16', 'DC10', '101', 'Surgery', 'Heart Attack Occuring', 'Heart Fixed', 'Less Alcohol more Exercise');
+insert into public."PAT_OPR" ("Patient_Ent_id", "Admission_Date", "Oper_Date", "Doctor_id", "Oper_Room_Num", "Oper_Type", "Pre_Op_Status", "Post_Op_Status", "Treatment_Advice") 
+                        values ('PT1247-2', '2022/05/20', '2022/05/21', 'DC14', '101', 'Surgery', 'Heart Attack Occuring', 'Heart Fixed', 'Pills due to heart condition');
+						
+insert into public."PAT_REG" ("Date_Visit", "Diagnosis", "TREATMENT", "MEDICATION", "Treatment_Status", "Patient_Ent_id") 
+                        values ('2022/05/05', 'Bad knee', 'Rest, Ice, Compression, Elevation', 'Pain Killers', 'Ongoing', 'PT1234-1');				
+insert into public."PAT_REG" ("Date_Visit", "Diagnosis", "TREATMENT", "MEDICATION", "Treatment_Status", "Patient_Ent_id") 
+                        values ('2022/05/12', 'Bad knee', 'Rest, Ice, Compression, Elevation', 'Pain Killers', 'Completed', 'PT1234-2');								
+insert into public."PAT_REG" ("Date_Visit", "Diagnosis", "TREATMENT", "MEDICATION", "Treatment_Status", "Patient_Ent_id") 
+                        values ('2022/05/09', 'Stitches', 'Stitches Removal', 'Antibiotics', 'Completed', 'PT1235-1');				
+insert into public."PAT_REG" ("Date_Visit", "Diagnosis", "TREATMENT", "MEDICATION", "Treatment_Status", "Patient_Ent_id") 
+                        values ('2022/05/19', 'Wisdom Teeth Removal', 'Checkup', 'Antibiotics', 'Completed', 'PT1238-2');	
+insert into public."PAT_REG" ("Date_Visit", "Diagnosis", "TREATMENT", "MEDICATION", "Treatment_Status", "Patient_Ent_id") 
+                        values ('2022/05/16', 'Blood Donation', 'Blood Donation', 'Rest for 15 minutes', 'Completed', 'PT1242-1');								
+insert into public."PAT_REG" ("Date_Visit", "Diagnosis", "TREATMENT", "MEDICATION", "Treatment_Status", "Patient_Ent_id") 
+                        values ('2022/05/18', 'M.R.I Scan', 'M.R.I Scan', 'Antivan', 'Completed', 'PT1245-1');				
+insert into public."PAT_REG" ("Date_Visit", "Diagnosis", "TREATMENT", "MEDICATION", "Treatment_Status", "Patient_Ent_id") 
+                        values ('2022/05/19', 'Parkinsons', 'L-Dopa', 'L-Dopa', 'Completed', 'PT1246-1');	
+select * from "PAT_REG"
+select * from "PAT_OPR"
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1234-1', 'Rest', 'Rest at home', '100', 'Cash', '2022/05/05');								
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1234-2', 'Rest', 'Rest at home', '100', 'Cash', '2022/05/12');																									
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1235-1', 'Rest and antibiotics', 'Rest at home and take antibioitcs', '200', 'Cash', '2022/05/09');								
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1238-2', 'antibiotics', 'Take antibiotics', '200', 'Visa', '2022/05/19');							
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1242-1', 'Rest 15 minutes', 'No heavy exercise', '0', 'N/A', '2022/05/16');																									
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1245-1', 'Isolate for a couple days', 'Rest at home isolate', '1000', 'Credit', '2022/05/18');								
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1246-1', 'L-Dopa', 'Take L-Dopa', '400', 'Visa', '2022/05/19');
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1238-1', 'Wisdom Teeth Removal', 'Take antibiotics', '1500', 'MasterCard', '2022/05/12');							
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1239-1', 'Biopsy', 'Find cause of death', '0', 'N/A', '2022/05/16');																									
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1243-1', 'Rest', 'Rest', '2000', 'Credit', '2022/05/18');								
+insert into public."PAT_DIS" ("Patient_Ent_id", "Treatment", "Treatment_Advice", "Payment_Made", "Payment_Mode", "Dis_Date") 
+                        values ('PT1247-1', 'Rest', 'Rest', '2000', 'Visa', '2022/05/22');	
+select * from "PAT_ENTRY"
+select * from "PAT_DIS"
+insert into public."ROOM_DETAILS" ("Room_Num", "Room_Type", "Occ_Status", "Patient_Ent_id", "Patient_F_Name", "Patient_L_Name", "Daily_Charge") values (303, 'G', 'Y', 'PT1237-1', 'Nickolas', 'Neward', '$15.93');
+insert into public."ROOM_DETAILS" ("Room_Num", "Room_Type", "Occ_Status", "Patient_Ent_id", "Patient_F_Name", "Patient_L_Name", "Daily_Charge") values (305, 'G', 'Y', 'PT1240-1', 'Renault', 'Issac', '$28.41');
+insert into public."ROOM_DETAILS" ("Room_Num", "Room_Type", "Occ_Status", "Patient_Ent_id", "Patient_F_Name", "Patient_L_Name", "Daily_Charge") values (307, 'G', 'Y', 'PT1234-2', 'Bryn', 'Lorenz', '$35.53');
+insert into public."ROOM_DETAILS" ("Room_Num", "Room_Type", "Occ_Status", "Patient_Ent_id", "Patient_F_Name", "Patient_L_Name", "Daily_Charge") values (400, 'P', 'Y', 'PT1246-1', 'Lellia', 'Strothers', '$36.76');
+insert into public."ROOM_DETAILS" ("Room_Num", "Room_Type", "Occ_Status", "Patient_Ent_id", "Patient_F_Name", "Patient_L_Name", "Daily_Charge") values (401, 'P', 'Y', 'PT1247-1', 'Jaymie', 'Agent', '$37.13');
+insert into public."ROOM_DETAILS" ("Room_Num", "Room_Type", "Occ_Status", "Patient_Ent_id", "Patient_F_Name", "Patient_L_Name", "Daily_Charge") values (505, 'P', 'Y', 'PT1244-2', 'Cossetta', 'Lamberto', '$23.07');
+Select * from "ROOM_DETAILS"	
+
+insert into public."PAT_ADMIT" ("Patient_Ent_id", "Advance_Payment", "Payment_Mode", "Room_Num", "Admission_Date", "Initial_Condition", "Diagnosis", "Treatment", "Doctor_id", "Attendant_Name") values ('PT1237-1', '$282.15', 'jcb', 303, '7/24/2019', 'stomach pain', 'stomach pain', 'ultra sound', 'DC12', 'Nikolaos Neward');;
+insert into public."PAT_ADMIT" ("Patient_Ent_id", "Advance_Payment", "Payment_Mode", "Room_Num", "Admission_Date", "Initial_Condition", "Diagnosis", "Treatment", "Doctor_id", "Attendant_Name") values ('PT1240-1', '$156.60', 'bankcard', 305, '5/15/2019', 'covid', 'covid', 'admit-isolation', 'DC8', 'Renault Issac');
+insert into public."PAT_ADMIT" ("Patient_Ent_id", "Advance_Payment", "Payment_Mode", "Room_Num", "Admission_Date", "Initial_Condition", "Diagnosis", "Treatment", "Doctor_id", "Attendant_Name") values ('PT1234-2', '$160.25', 'jcb', 307, '9/23/2020', 'unconscious', 'unconscious', 'admit', 'DC12', 'Bryn Lorenz');
+insert into public."PAT_ADMIT" ("Patient_Ent_id", "Advance_Payment", "Payment_Mode", "Room_Num", "Admission_Date", "Initial_Condition", "Diagnosis", "Treatment", "Doctor_id", "Attendant_Name") values ('PT1246-1', '$265.78', 'jcb', 400, '2/19/2020', 'cancer', 'cancer', 'Referred', 'DC8', 'Kellia Strothers');
+insert into public."PAT_ADMIT" ("Patient_Ent_id", "Advance_Payment", "Payment_Mode", "Room_Num", "Admission_Date", "Initial_Condition", "Diagnosis", "Treatment", "Doctor_id", "Attendant_Name") values ('PT1247-1', '$105.06', 'mastercard', 401, '10/31/2020', 'heart attack', 'heart attack', 'admit', 'DR7', 'Jaymie Agent');
+insert into public."PAT_ADMIT" ("Patient_Ent_id", "Advance_Payment", "Payment_Mode", "Room_Num", "Admission_Date", "Initial_Condition", "Diagnosis", "Treatment", "Doctor_id", "Attendant_Name") values ('PT1244-2', '$254.59', 'americanexpress', 505, '2/13/2021', 'flesh eating disease', 'flesh eating disease', 'Admit', 'DC12', 'Cosetta Lamberto');
+select * from "PAT_ADMIT"					
+						
+						
+						
+						
+						
